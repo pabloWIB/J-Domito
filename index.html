@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="">
+	<meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="IMG/FAVICON/favicon-32x32.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:locale" content="es_ES"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="IMG/FAVICON/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="IMG/FAVICON/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="IMG/FAVICON/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="IMG/FAVICON/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="IMG/FAVICON/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="IMG/FAVICON/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="IMG/FAVICON/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="IMG/FAVICON/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="IMG/FAVICON/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="IMG/FAVICON/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="IMG/FAVICON/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="IMG/FAVICON/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="IMG/FAVICON/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="twitter:title" content=""/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:image" content="IMG/FAVICON/favicon-32x32.png"/>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "",
+			"url": "",
+			"logo": "",
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+",
+				"contactType": ""
+			},
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "",
+				"addressLocality": "Ciudad",
+				"addressRegion": "",
+				"postalCode": "",
+				"addressCountry": "ES"
+			},
+			"sameAs": [
+				"",
+				""
+			]
+		}
+	</script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="CSS/styles.css"/>
+	<title></title>
+</head>
+<body style="display:none">
+	<div id="fullpage">
+		<header class="top-0 left-0 w-full z-10 bg-transparent absolute" style="color:#fff" dir="ltr">
+			<div class="px-4 py-4 flex items-center justify-between relative lg:px-6"><a href="index.html">
+					<h3 class="bg-transparent font-bold text-xl lg:text-2xl xl:text-3xl">High Time Holidays</h3>
+				</a>
+				<nav
+					class="absolute right-5 top-3 px-2 py-1 flex justify-center items-center rounded-md bg-black bg-opacity-30 md:bg-transparent md:relative md:px-0 md:py-0 md:right-0 md:top-0">
+					<button class="text-white text-xl md:hidden block" data-menutoggle="header1"
+						data-menuexpanded="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+							fill="currentColor" aria-hidden="true" class="w-6 h-6">
+							<path fill-rule="evenodd"
+								d="M3 9a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9zm0 6.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+								clip-rule="evenodd"></path>
+						</svg></button>
+					<ul class="list-none hidden flex-col items-center gap-y-1 gap-x-2 group md:flex md:flex-row md:gap-x-4 md:gap-y-0 md:items-center md:justify-center"
+						data-menutogglemenu="header1">
+						<li><a href="index.html#feature2" target="_self" rel="noopener noreferrer"
+							class="font-medium rounded-md text-lg lg:text-xl">Home</a></li>
+						<li><a href="index.html#feature2" target="_self" rel="noopener noreferrer"
+								class="font-medium rounded-md text-lg lg:text-xl">Services we offer</a></li>
+						<li><a href="index.html#pricing1" target="_self" rel="noopener noreferrer"
+								class="font-medium rounded-md text-lg lg:text-xl">Pricing</a></li>
+						<li><a href="index.html#cta1" target="_self" rel="noopener noreferrer"
+								class="font-medium rounded-md text-lg lg:text-xl">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full" id="hero1-elem"
+			data-sectionid="hero1" data-sectiontype="Hero" data-sectionname="Center Hero" data-color="#ffffff"
+			data-firstsection="false" style="color:#fff;background-color:rgba(0,0,0,.2)">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div class="flex flex-col items-center justify-center px-5 mt-6 lg:px-10 w-[100vw]">
+						<h1 class="py-0.5 rounded-md outline-none font-heading text-5xl sm:text-6xl md:text-8xl xl:text-11xl font-bold px-4 bg-transparent text-center pb-3 w-full lg:pb-6"
+							contenteditable="false" style="text-shadow:1px 1px 2px #fff">Experience the best of India
+							and Maldives</h1>
+						<h3 class="py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-bold bg-transparent text-center w-full px-4 max-w-5xl mb-3"
+							contenteditable="false">Discover our travel packages, stunning holidays, and tours in India
+							and the Maldives. Book now!</h3>
+					</div>
+					<div class="flex justify-center items-center mt-4 mb-6">
+						<div
+							class="group flex items-center justify-center w-full flex-wrap gap-2 px-9 md:gap-3 lg:gap-4 lg:px-10">
+							<a class="px-3 py-1.5 rounded-md font-semibold text-lg lg:px-4 lg:py-2 text-center lg:text-xl w-full md:w-max"
+								style="border:1px solid #fff;background:#fff;color:#429395" target="_blank"
+								rel="noopener noreferrer" href="mailto:hightimeholidays@gmail.com">Contact us</a><a
+								class="px-3 py-1.5 rounded-md font-semibold text-lg lg:px-4 lg:py-2 text-center lg:text-xl w-full md:w-max"
+								style="border:1px solid #fff;background:rgba(255,255,255,.05);color:#fff" target="_self"
+								rel="noopener noreferrer" href="index.html#feature2">Services we offer</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="absolute top-0 left-0 z-0 w-full h-full"><video
+					src="https://videos.pexels.com/video-files/6051210/6051210-sd_960_540_25fps.mp4" autoplay=""
+					playsinline="" loop="" muted="" style="z-index:1;object-fit:cover"
+					class="absolute top-0 left-0 w-full h-full object-cover object-center" data-bgvideo="true"
+					poster="https://images.pexels.com/videos/6051210/aerial-footage-blue-ocean-blue-water-clear-water-6051210.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=630&amp;w=1200"></video>
+				<div style="z-index:2;background-color:rgba(66,147,149,.35)"
+					class="relative top-0 left-0 w-full h-full backdrop-blur-[1px]"></div>
+			</div>
+		</div>
+
+		<div dir="ltr" class="section flex flex-col z-[5] min-h-full w-full" data-sectionid=""
+			data-sectiontype="Feature" data-sectionname="Features" data-color="#000000" data-firstsection="false"
+			style="color:#000;background-color:#ffffff">
+
+			<form action="" id="firstForm">
+				<label for="name">Name:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/user.svg" alt="Name">
+					</div>
+					<input class="input-getdata" type="text" id="name" name="name" autocomplete="name"
+						placeholder="John Smith...">
+				</div>
+
+				<label for="materialType">No. of Adults and Child:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/type.svg" alt="Tipo de material">
+					</div>
+					<input class="input-getdata" type="text" id="materialType"
+						placeholder="2 Adults and 1 Child..."></input>
+				</div>
+
+				<label for="email">Email:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/mail.svg" alt="email">
+					</div>
+					<input class="input-getdata" type="email" id="email" name="email" placeholder="youemail@email.com">
+				</div>
+
+				<label for="cellphone">Phone:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/blackPhone.svg" alt="telephone">
+					</div>
+					<input class="input-getdata" type="tel" id="cellphone" name="cellphone" autocomplete="tel"
+						placeholder="123 456 789">
+				</div>
+
+				<label for="elementToAnalyze">Describe your holiday plan:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/type.svg" alt="Elemento a analizar">
+					</div>
+					<input class="input-getdata" type="text" id="elementToAnalyze"
+						placeholder="Travel with my family to..."></input>
+				</div>
+
+				<div class="error-div-hide" id="findErrorsDiv"></div>
+				<button type="submit" class="submitButton" value="ENVIAR">SEND</button>
+			</form>
+
+		</div>
+
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="feature2-elem" data-sectionid="feature2" data-sectiontype="Feature" data-sectionname="Features"
+			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#fff">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div class="flex flex-col items-center justify-center w-full px-5 py-10 md:px-4 lg:px-10 w-screen">
+						<h2 class="px-2 py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pb-1 lg:pb-4"
+							contenteditable="false" style="max-width:1152px">Our Services</h2>
+						<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-medium text-center max-w-4xl"
+							contenteditable="false" style="max-width:1152px">Unforgettable experiences await you</h3>
+						<div class="flex flex-wrap w-full mt-10 gap-y-4" style="max-width:1152px">
+							<div class="p-2 w-full md:w-1/2">
+								<div class="rounded-md h-full w-full flex justify-start gap-x-4 px-4 lg:gap-x-5">
+									<div class="flex flex-col items-center gap-y-2">
+										<p class="w-10 h-10 flex items-center justify-center text-xl rounded-md font-extrabold"
+											style="color:rgba(255,255,255);background-color:rgba(0,0,0)">1</p>
+									</div>
+									<div class="flex-1" style="margin-top:-7px">
+										<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-bold text-left line-clamp-2"
+											contenteditable="false">Tailored Packages</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none font-normal text-lg mt-2"
+											contenteditable="false" style="color:rgba(0,0,0,.8)">Customize your dream
+											vacation with our tailored packages</p>
+									</div>
+								</div>
+							</div>
+							<div class="p-2 w-full md:w-1/2">
+								<div class="rounded-md h-full w-full flex justify-start gap-x-4 px-4 lg:gap-x-5">
+									<div class="flex flex-col items-center gap-y-2">
+										<p class="w-10 h-10 flex items-center justify-center text-xl rounded-md font-extrabold"
+											style="color:rgba(255,255,255);background-color:rgba(0,0,0)">2</p>
+									</div>
+									<div class="flex-1" style="margin-top:-7px">
+										<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-bold text-left line-clamp-2"
+											contenteditable="false">Luxurious Holidays</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none font-normal text-lg mt-2"
+											contenteditable="false" style="color:rgba(0,0,0,.8)">Indulge in luxury with
+											our handpicked holiday destinations</p>
+									</div>
+								</div>
+							</div>
+							<div class="p-2 w-full md:w-1/2">
+								<div class="rounded-md h-full w-full flex justify-start gap-x-4 px-4 lg:gap-x-5">
+									<div class="flex flex-col items-center gap-y-2">
+										<p class="w-10 h-10 flex items-center justify-center text-xl rounded-md font-extrabold"
+											style="color:rgba(255,255,255);background-color:rgba(0,0,0)">3</p>
+									</div>
+									<div class="flex-1" style="margin-top:-7px">
+										<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-bold text-left line-clamp-2"
+											contenteditable="false">Authentic Tours</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none font-normal text-lg mt-2"
+											contenteditable="false" style="color:rgba(0,0,0,.8)">Explore the essence of
+											India and Maldives with our authentic tours</p>
+									</div>
+								</div>
+							</div>
+							<div class="p-2 w-full md:w-1/2">
+								<div class="rounded-md h-full w-full flex justify-start gap-x-4 px-4 lg:gap-x-5">
+									<div class="flex flex-col items-center gap-y-2">
+										<p class="w-10 h-10 flex items-center justify-center text-xl rounded-md font-extrabold"
+											style="color:rgba(255,255,255);background-color:rgba(0,0,0)">4</p>
+									</div>
+									<div class="flex-1" style="margin-top:-7px">
+										<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-bold text-left line-clamp-2"
+											contenteditable="false">Expert Guides</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none font-normal text-lg mt-2"
+											contenteditable="false" style="color:rgba(0,0,0,.8)">Experience the local
+											culture and heritage with our knowledgeable guides</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="about1-elem" data-sectionid="about1" data-sectiontype="About" data-sectionname="About us"
+			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#f7f7f7">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div
+						class="flex items-center gap-y-8 justify-left w-full py-10 flex row flex-wrap-reverse md:px-4 lg:px-6">
+						<div class="w-full px-5 md:w-1/2">
+							<h2 class="py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold px-4 bg-transparent text-left pb-3 w-full lg:pb-6"
+								contenteditable="false">Travel Packages</h2>
+							<p class="py-0.5 rounded-md outline-none text-base lg:text-lg xl:text-xl font-medium bg-transparent text-left w-full px-4"
+								contenteditable="false">Experience the best of India and Maldives with our carefully
+								crafted travel packages. Immerse yourself in the rich culture, breathtaking landscapes,
+								and warm hospitality.</p>
+							<div class="mt-4 w-full px-3 md:w-max md:px-4">
+								<div
+									class="group flex items-center justify-center w-full flex-wrap gap-2 md:gap-3 lg:gap-4 px-0 py-0 @lg:px-0 @lg:py-0 lg:px-0 lg:py-0 md:px-0 md:py-0 @md:px-0 @md:py-0">
+								</div>
+							</div>
+						</div>
+						<div class="w-full px-6 md:w-1/2">
+							<div class="w-full h-full relative"><img
+									src="https://images.unsplash.com/photo-1601565164781-5ab8734700a2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwdHJhdmVsfGVufDB8MHx8fDE3Mjc2NzQ5Mzh8Mg&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+									class="w-full h-full object-cover rounded-xl object-center" alt="about"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="about2-elem" data-sectionid="about2" data-sectiontype="About" data-sectionname="About us"
+			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#fff">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div
+						class="flex items-center gap-y-8 justify-left w-full py-10 flex-row-reverse flex-wrap md:px-4 lg:px-6">
+						<div class="w-full px-5 md:w-1/2">
+							<h2 class="py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold px-4 bg-transparent text-left pb-3 w-full lg:pb-6"
+								contenteditable="false">Stunning Holidays</h2>
+							<p class="py-0.5 rounded-md outline-none text-base lg:text-lg xl:text-xl font-medium bg-transparent text-left w-full px-4"
+								contenteditable="false">Escape to paradise with our stunning holiday destinations in
+								India and Maldives. Relax on pristine beaches, indulge in luxurious resorts, and create
+								unforgettable memories.</p>
+							<div class="mt-4 w-full px-3 md:w-max md:px-4">
+								<div
+									class="group flex items-center justify-center w-full flex-wrap gap-2 md:gap-3 lg:gap-4 px-0 py-0 @lg:px-0 @lg:py-0 lg:px-0 lg:py-0 md:px-0 md:py-0 @md:px-0 @md:py-0">
+								</div>
+							</div>
+						</div>
+						<div class="w-full px-6 md:w-1/2">
+							<div class="w-full h-full relative"><img
+									src="https://images.unsplash.com/photo-1561768789-ad8f2d165ba0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwdHJhdmVsfGVufDB8MHx8fDE3Mjc2NzQ5Mzh8Mg&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+									class="w-full h-full object-cover rounded-xl object-center" alt="about"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="pricing1-elem" data-sectionid="pricing1" data-sectiontype="Pricing" data-sectionname="Pricing"
+			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#f7f7f7">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div class="mx-auto px-5 py-10 flex flex-col justify-start items-center md:px-4 lg:px-10 w-screen">
+						<div class="text-center mb-8">
+							<h2 class="px-2 py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pb-1 lg:pb-4"
+								contenteditable="false">Our Pricing</h2>
+							<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-medium text-center max-w-4xl"
+								contenteditable="false">Our simple straightforward pricing that suits you!</h3>
+						</div>
+						<div class="flex flex-wrap w-full justify-center mt-2" style="max-width:1024px">
+							<div class="w-full p-2 sm:w-1/2 lg:w-1/3">
+								<div class="rounded-2xl px-6 py-8 shadow-sm w-full border h-full flex flex-col relative"
+									style="border-color:rgba(247,247,247,.2);background-color:rgba(247,247,247,.8)">
+									<div class="text-center flex flex-col items-start justify-between w-full">
+										<h3 class="px-2 py-0.5 rounded-md outline-none font-medium text-4xl text-left truncate max-w-full"
+											contenteditable="false">Free</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none text-2xl mt-1 truncate max-w-full"
+											contenteditable="false">$0</p>
+									</div>
+									<ul class="mt-2 mb-5 pl-1.5">
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Email support</p>
+										</li>
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Help center access</p>
+										</li>
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">24/7 support</p>
+										</li>
+									</ul>
+									<div class="flex justify-start items-center mt-auto"><a
+											class="mt-auto rounded-full py-1 text-center items-center justify-center font-medium w-max px-5 border"
+											style="background-color:rgba(0,0,0,.1);color:#000;border:1px solid rgba(0,0,0,.2)"
+											href="index.html#" target="_self" rel="noopener noreferrer">Sign up for
+											free</a></div>
+								</div>
+							</div>
+							<div class="w-full p-2 sm:w-1/2 lg:w-1/3">
+								<div class="rounded-2xl px-6 py-8 shadow-sm w-full border h-full flex flex-col relative"
+									style="border-color:rgba(247,247,247,.2);background-color:rgba(247,247,247,.8)">
+									<div class="text-center flex flex-col items-start justify-between w-full">
+										<h3 class="px-2 py-0.5 rounded-md outline-none font-medium text-4xl text-left truncate max-w-full"
+											contenteditable="false">Standard</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none text-2xl mt-1 truncate max-w-full"
+											contenteditable="false">$99</p>
+									</div>
+									<ul class="mt-2 mb-5 pl-1.5">
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Customized itinerary</p>
+										</li>
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Personalized service</p>
+										</li>
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Local transportation</p>
+										</li>
+									</ul>
+									<div class="flex justify-start items-center mt-auto"><a
+											class="mt-auto rounded-full py-1 text-center items-center justify-center font-medium w-max px-5 border"
+											style="background-color:rgba(0,0,0,.1);color:#000;border:1px solid rgba(0,0,0,.2)"
+											href="index.html#" target="_self" rel="noopener noreferrer">Book now</a>
+									</div>
+								</div>
+							</div>
+							<div class="w-full p-2 sm:w-1/2 lg:w-1/3">
+								<div class="rounded-2xl px-6 py-8 shadow-sm w-full border h-full flex flex-col relative"
+									style="border-color:rgba(247,247,247,.2);background-color:rgba(247,247,247,.8)">
+									<div class="text-center flex flex-col items-start justify-between w-full">
+										<h3 class="px-2 py-0.5 rounded-md outline-none font-medium text-4xl text-left truncate max-w-full"
+											contenteditable="false">Premium</h3>
+										<p class="px-2 py-0.5 rounded-md outline-none text-2xl mt-1 truncate max-w-full"
+											contenteditable="false">$199</p>
+									</div>
+									<ul class="mt-2 mb-5 pl-1.5">
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Private guide</p>
+										</li>
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">Exclusive experiences</p>
+										</li>
+										<li class="text-center flex items-center" style="margin-bottom:1px"><svg
+												xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+												fill="currentColor" aria-hidden="true" class="h-5 w-5"
+												style="color:rgba(0,0,0,.8)">
+												<path fill-rule="evenodd"
+													d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+													clip-rule="evenodd"></path>
+											</svg>
+											<p class="px-2 py-0.5 rounded-md outline-none text-base text-start"
+												contenteditable="false">VIP treatment</p>
+										</li>
+									</ul>
+									<div class="flex justify-start items-center mt-auto"><a
+											class="mt-auto rounded-full py-1 text-center items-center justify-center font-medium w-max px-5 border"
+											style="background-color:rgba(0,0,0,.1);color:#000;border:1px solid rgba(0,0,0,.2)"
+											href="index.html#" target="_self" rel="noopener noreferrer">Book now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="testimonial1-elem" data-sectionid="testimonial1" data-sectiontype="Testimonial"
+			data-sectionname="Testimonial" data-color="#000000" data-firstsection="false"
+			style="color:#000;background-color:#fff">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div class="flex flex-col items-center justify-center w-full px-2 py-5 md:px-4 lg:px-10 w-screen"
+						style="color:#000">
+						<div class="w-full flex justify-center items-center flex-col text-center">
+							<p class="px-2 py-0.5 rounded-md outline-none lg:text-lg xl:text-xl text-lg font-medium"
+								contenteditable="false" style="color:rgba(0,0,0,.8)">What our customers say</p>
+							<h2 class="px-2 py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold"
+								contenteditable="false">Testimonials</h2>
+						</div>
+						<div class="flex items-center w-full pt-5">
+							<div class="flex overflow-x-auto flex-1 flex-nowrap mt-5 noscrollbar relative"
+								style="scroll-behavior:smooth" data-scrollcontainer="testimonial1">
+								<div class="px-2 w-full flex-shrink-0 mb-4 md:w-1/2">
+									<div class="px-4 py-5 rounded-md flex flex-col justify-center items-center text-center h-full w-full relative"
+										style="background-color:rgba(255,255,255,.8)">
+										<p class="px-2 py-0.5 rounded-md outline-none text-base lg:text-lg xl:text-xl font-medium"
+											contenteditable="false">High Time Holidays provided us with the most
+											memorable vacation. Highly recommend!</p>
+										<div class="mt-auto">
+											<p class="px-2 py-0.5 rounded-md outline-none text-base lg:text-lg xl:text-xl mt-5 font-bold"
+												contenteditable="false" style="color:rgba(0,0,0,.8)">John Doe</p>
+											<p class="px-2 py-0.5 rounded-md outline-none font-medium text-base"
+												contenteditable="false" style="color:rgba(0,0,0,.8)">CEO, Company</p>
+										</div>
+									</div>
+								</div>
+								<div class="px-2 w-full flex-shrink-0 mb-4 md:w-1/2">
+									<div class="px-4 py-5 rounded-md flex flex-col justify-center items-center text-center h-full w-full relative"
+										style="background-color:rgba(255,255,255,.8)">
+										<p class="px-2 py-0.5 rounded-md outline-none text-base lg:text-lg xl:text-xl font-medium"
+											contenteditable="false">The attention to detail and personalized service
+											made our holiday truly special. Thank you High Time Holidays!</p>
+										<div class="mt-auto">
+											<p class="px-2 py-0.5 rounded-md outline-none text-base lg:text-lg xl:text-xl mt-5 font-bold"
+												contenteditable="false" style="color:rgba(0,0,0,.8)">Jane Smith</p>
+											<p class="px-2 py-0.5 rounded-md outline-none font-medium text-base"
+												contenteditable="false" style="color:rgba(0,0,0,.8)">Marketing Manager
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="gallery1-elem" data-sectionid="gallery1" data-sectiontype="Gallery" data-sectionname="Gallery"
+			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#f7f7f7">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div class="flex flex-col items-center justify-center py-5 w-screen">
+						<div class="flex items-center justify-center flex-col px-5">
+							<h2 class="px-2 py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pb-1 lg:pb-4"
+								contenteditable="false">Our Travel Highlights</h2>
+							<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-medium text-center max-w-4xl"
+								contenteditable="false">Explore some of the unforgettable places we've taken our
+								clients.</h3>
+						</div>
+						<div class="py-5 mt-5 flex w-full overflow-x-scroll noscrollbar items-center gap-4 px-5 justify-start"
+							data-scrollablegallary="true">
+							<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+								style="aspect-ratio:13/5.5"><img src="IMG/WEB/kunal-kalra-yJA1VIez2Eo-unsplash.jpg"
+									class="w-full h-full object-cover object-center"></div>
+							<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+								style="aspect-ratio:13/5.5"><img src="IMG/WEB/habeeb-rahiman-7dV5fNCwXhA-unsplash.jpg"
+									class="w-full h-full object-cover object-center"></div>
+									<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+									style="aspect-ratio:13/5.5"><img src="IMG/WEB/avin-cp-QLqv9rWWB8I-unsplash.jpg"
+										class="w-full h-full object-cover object-center"></div>
+										<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+										style="aspect-ratio:13/5.5"><img src="IMG/WEB/hardik-monga-tPB0h1y8iXw-unsplash.jpg"
+											class="w-full h-full object-cover object-center"></div>
+							<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+								style="aspect-ratio:13/5.5"><img
+									src="https://images.unsplash.com/photo-1601465470925-d6e9eb3c34df?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bHV4dXJ5JTIwdHJhdmVsfGVufDB8MHx8fDE3Mjc2NzQ5Mzh8Mg&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+									class="w-full h-full object-cover object-center"></div>
+							<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+								style="aspect-ratio:13/5.5"><img
+									src="https://images.unsplash.com/photo-1601565164781-5ab8734700a2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwdHJhdmVsfGVufDB8MHx8fDE3Mjc2NzQ5Mzh8Mg&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+									class="w-full h-full object-cover object-center"></div>
+							<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+								style="aspect-ratio:13/5.5"><img
+									src="https://images.unsplash.com/photo-1561768789-ad8f2d165ba0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwdHJhdmVsfGVufDB8MHx8fDE3Mjc2NzQ5Mzh8Mg&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+									class="w-full h-full object-cover object-center"></div>
+							<div class="rounded-xl w-full hover:scale-110 transform ease-linear duration-100 hover:mx-6 overflow-hidden flex-shrink-0 relative h-full flex justify-center items-center flex-col gap-y-2 md:w-1/2"
+								style="aspect-ratio:13/5.5"><img
+									src="https://images.unsplash.com/photo-1661354421565-74ffd9650918?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8NXx8bHV4dXJ5JTIwdHJhdmVsfGVufDB8MHx8fDE3Mjc2NzQ5Mzh8Mg&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+									class="w-full h-full object-cover object-center"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full" id="cta1-elem"
+			data-sectionid="cta1" data-sectiontype="Cta" data-sectionname="Mail us" data-color="#000000"
+			data-firstsection="false" style="color:#000;background-color:#fff">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div class="flex flex-col items-center justify-center px-5 mt-6 lg:px-10 w-[100vw]">
+						<h2 class="py-0.5 rounded-md outline-none font-heading text-5xl sm:text-6xl md:text-8xl xl:text-11xl font-bold px-4 bg-transparent text-center pb-3 w-full lg:pb-6"
+							contenteditable="false" style="text-shadow:1px 1px 2px #000">Get our service</h2>
+						<p class="py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-bold bg-transparent text-center w-full px-4 max-w-5xl mb-3"
+							contenteditable="false">Contact us to make a deal</p>
+					</div>
+					<div class="flex justify-center items-center mt-4 mb-6">
+						<div
+							class="group flex items-center justify-center w-full flex-wrap gap-2 px-9 md:gap-3 lg:gap-4 lg:px-10">
+							<a class="px-3 py-1.5 rounded-md font-semibold text-lg lg:px-4 lg:py-2 text-center lg:text-xl w-full md:w-max"
+								style="border:1px solid #000;background:#000;color:#fff" target="_blank"
+								href="mailto:hightimeholidays@gmail.com">Contact us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
+			id="footer1-elem" data-sectionid="footer1" data-sectiontype="Footer" data-sectionname="Footer"
+			data-color="#ffffff" data-firstsection="false" style="color:#fff;background-color:#000">
+			<div
+				class="w-full flex flex-col items-center justify-center z-10 top-0 left-0 min-h-full w-full overflow-y-auto">
+				<div class="z-10 w-full">
+					<div
+						class="flex flex-col items-center gap-y-8 justify-center w-full px-2 pt-10 pb-5 md:px-4 lg:px-6">
+						<h2 class="px-2 py-0.5 rounded-md outline-none font-heading text-5xl sm:text-6xl md:text-8xl xl:text-11xl font-bold text-center"
+							contenteditable="false">High Time Holidays</h2>
+						<ul
+							class="flex flex-wrap items-center gap-x-2 gap-y-0 max-w-2xl group w-full justify-center -mt-5 sm:mt-3 lg:mt-0 md:gap-x-3 md:gap-y-2">
+							<li><a href="https://facebook.com/ID" target="_blank" rel="noopener noreferrer"
+									class="font-medium rounded-md text-lg lg:text-xl" style="color:#fff">Facebook</a>
+							</li>
+							<li><a href="https://twitter.com/ID" target="_blank" rel="noopener noreferrer"
+									class="font-medium rounded-md text-lg lg:text-xl" style="color:#fff">Twitter</a>
+							</li>
+							<li><a href="index.html#cta1" target="_self" rel="noopener noreferrer"
+									class="font-medium rounded-md text-lg lg:text-xl" style="color:#fff">Contact</a>
+							</li>
+						</ul>
+						<div class="flex flex-col justify-center items-center gap-2">
+							<p class="px-2 py-0.5 rounded-md outline-none text-center mt-3 text-xs"
+								contenteditable="true">© <span id="date"></span> All rights reserved.</p>
+							<a class="hover:underline outline-none text-xs" href="HTML'S/terms.html">Terms &amp;
+								Privacy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<script src="JS/script.js"></script>
+	<script src="JS/zoom.js"></script>
+</body>
+</html>
