@@ -2,6 +2,8 @@
 
 <h2 align="center">Página: <a href="https://j-domito.vercel.app/">j-domito.com</a></h2>
 
+<img src="IMG/hero.png">
+
 <h2 >Tecnologías usadas👨🏻‍💻</h2>
 <br>
 <h4>Front end: </h4>

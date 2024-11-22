@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-.libre-caslon-text-regular {
+span {
   font-family: "Libre Caslon Text", serif;
-  font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
-body {
+html {
   font-family: "Libre Caslon Text", serif;
 }
 
 h1 {
   font-size: 42px;
+}
+h1 span {
   font-weight: 700;
 }
 
@@ -25,11 +26,11 @@ button {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 42px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 h4 {
@@ -38,7 +39,6 @@ h4 {
 
 a,
 p,
-span,
 label,
 input,
 button ul,
@@ -47,7 +47,6 @@ li {
 }
 
 p,
-span,
 input,
 select,
 option ul,
@@ -60,17 +59,16 @@ li {
     font-size: 30px;
   }
   h2 {
-    font-size: 19px;
-  }
-  h4 {
-    font-size: 17px;
+    font-size: 39px;
   }
   h3 {
+    font-size: 37px;
+  }
+  h4 {
     font-size: 15px;
   }
   a,
   p,
-  span,
   label,
   input,
   button ul,
@@ -83,17 +81,16 @@ li {
     font-size: 22px;
   }
   h2 {
-    font-size: 16px;
+    font-size: 36px;
   }
   h3 {
-    font-size: 15px;
+    font-size: 35px;
   }
   h4 {
     font-size: 14.5px;
   }
   a,
   p,
-  span,
   label,
   input,
   button ul,
