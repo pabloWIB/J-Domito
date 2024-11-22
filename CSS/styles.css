@@ -41,4 +41,10 @@ body .section .insideSection > :nth-child(3) {
   background-color: #feffdf;
   pointer-events: none;
   transition: transform 0.1s ease;
+}
+
+@media (max-width: 900px) {
+  .ball {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
